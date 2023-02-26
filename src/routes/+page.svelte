@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>BTZ Hukuk</title>
+  <meta name="robots" content="noindex" />
+  <meta name="googlebot" content="noindex" />
+</svelte:head>
+<div class="w-screen h-screen flex justify-center items-center flex-col">
+    <img class="rounded-full select-none" src="building-wall.gif" alt="Yapım Aşamasında...">
+    <h1 class="inline-flex justify-center items-center font-extrabold">Yapım Aşamasında...</h1>
+</div>
